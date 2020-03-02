@@ -19,9 +19,10 @@ A continuación se anexa material multimedia sobre los ensayos axiales de labora
 # Ejercicios:
  Para complementar el libro trabajado en clase, se recomienda resolver los ejercicios del primer capítulo del libro Beer and Jhonston. Para ello se deben ver los videos 3 al 13 de la lista:  [Resistencia de materiales](https://www.youtube.com/playlist?list=PLCvMDALcfEMG3y3wCOytL1asaFTO73CN8)
 
-[![Ejercicio 1](http://img.youtube.com/vi/hj9q3Y10U54&list=PLCvMDALcfEMG3y3wCOytL1asaFTO73CN8&index=5&t=0s/0.jpg)](http://www.youtube.com/watch?v=hj9q3Y10U54&list=PLCvMDALcfEMG3y3wCOytL1asaFTO73CN8&index=5&t=0s)
+[![Ejercicio1](http://img.youtube.com/vi/hj9q3Y10U54&list=PLCvMDALcfEMG3y3wCOytL1asaFTO73CN8&index=5&t=0s/0.jpg)](http://www.youtube.com/watch?v=hj9q3Y10U54&list=PLCvMDALcfEMG3y3wCOytL1asaFTO73CN8&index=5&t=0s)
 
 [![Ejercicio 2](http://img.youtube.com/vi/istNkAW2ICY&list=PLCvMDALcfEMG3y3wCOytL1asaFTO73CN8&index=7/0.jpg)](http://www.youtube.com/watch?v=istNkAW2ICY&list=PLCvMDALcfEMG3y3wCOytL1asaFTO73CN8&index=7)
 
+
 **<span style="font-size: 300%">NOTA:</span>**
-  Si encuentran buenos videos o páginas  donde hallan ensayos o ejercicios enviarmelos al correo para anexarlos 
+  Si encuentran otros videos o páginas, que sean muy buenos, en los que hallan ensayos o ejercicios enviarmelos al correo para anexarlos 
