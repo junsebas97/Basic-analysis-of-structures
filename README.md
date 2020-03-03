@@ -1,5 +1,6 @@
 # Análisis estructural básico
 Universidad Nacional de Colombia - Sede Manizales
+
 4100704- G2 
 
 <p float="left">
