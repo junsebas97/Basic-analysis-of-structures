@@ -6,6 +6,6 @@ Universidad Nacional de Colombia - Sede Manizales
   <img src="Docs/stiffnes_image.png" height="485" /> 
 </p>
 
-- [Contenido:](./Contenido.xlsx)
-- [Bibliografía:](./Books/) 
-- [Material complementario:](./Docs/)
+- [Contenido](./Contenido.xlsx)
+- [Bibliografía](./Books/) 
+- [Material complementario](./Docs/)
