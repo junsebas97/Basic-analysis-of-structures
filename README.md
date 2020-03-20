@@ -1,4 +1,6 @@
-# Material bibliográfico:
+﻿# Material bibliográfico:
+
+Antes de ller los libros les recomiendo que observen la presentación [Introducción](Docs/introducción.pdf)
 
 Para la primera parte del curso se seguirá el libro *Mechanics of Meterials* - James M. Gere. De este 
 libro se debe seguir el siguiente orden:
