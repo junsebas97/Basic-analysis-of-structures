@@ -2,7 +2,7 @@
 
 
 En esta carpeta encontrarán varios programas de Matlab que pueden ir estudiando a medida que avanzan en 
-el libro; el programa [viga_eb](/viga_eb.m) es complementario al capítulo 5, el libro de excel [diferencias_finitas](/diferencias_finitas.xlsx) trata el mismo tema del capítulo 9 (sin embargo, recomiendo no estudiarlo. Este se explicará a fondo en clase), los programas [composite_section](/composite_section.m) y [biaxial_bendig](/biaxial_bending.m) son complementarios al capítulo 6.
+el libro; el programa [viga_eb](./viga_eb.m) es complementario al capítulo 5, el libro de excel [diferencias_finitas](./diferencias_finitas.xlsx) trata el mismo tema del capítulo 9 (sin embargo, recomiendo no estudiarlo. Este se explicará a fondo en clase), los programas [composite_section](./composite_section.m) y [biaxial_bendig](./biaxial_bending.m) son complementarios al capítulo 6.
 
 
 Además. a continuación se anexa material multimedia sobre los ensayos de flexión de laboratorio típicos
