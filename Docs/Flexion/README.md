@@ -24,7 +24,7 @@ y algunos ejercicios prácticos
 
 [![Falla por cortante](http://img.youtube.com/vi/GHMCG4fUUpM/0.jpg)](http://www.youtube.com/watch?v=GHMCG4fUUpM)
 
-[![Shear failure](http://img.youtube.com/vi/8jp8TfUay7A&t/0.jpg)](http://www.youtube.com/watch?v=8jp8TfUay7A&t)
+[![Shear failure](http://img.youtube.com/vi/8jp8TfUay7A/0.jpg)](http://www.youtube.com/watch?v=8jp8TfUay7A)
 
 
 ## Ejercicios:
