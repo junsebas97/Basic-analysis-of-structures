@@ -4,13 +4,13 @@
 En esta carpeta encontrarán varios programas de Matlab que son complementarios a la teoría del capítulo 6 y que pueden ir estudiando a medida que avanzan en el libro: el programa [constant_torsion](./constant_torsion.m) soluciona la siguiente barra:
 
 <p float="left">
-  <img src="./constant.jpeg" height="150" /> 
+  <img src="./constant.jpeg" height="250" /> 
 </p>
 
 El programa [nonconstant_torsion](./nonconstant_torsion.m) soluciona la siguiente viga:
 
 <p float="left">
-  <img src="./nonconstant.jpeg" height="150" /> 
+  <img src="./nonconstant.jpeg" height="250" /> 
 </p>
 
 

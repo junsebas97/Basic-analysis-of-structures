@@ -7,19 +7,19 @@ el libro; el programa [viga_eb](./viga_EB.m) es complementario al capítulo 5.
 El libro de excel [diferencias_finitas](./diferencias_finitas.xlsx) trata el mismo tema del capítulo 9 (sin embargo, recomiendo no estudiarlo. Este se explicará a fondo en clase). Este programa resuelve el siguiente problema:
 
 <p float="left">
-  <img src="./deflection.jpeg" height="150" /> 
+  <img src="./deflection.jpeg" height="480" /> 
 </p>
 
 El programa [composite_section](./composite_section.m) soluciona la siguiente viga:
 
 <p float="left">
-  <img src="./composite.jpeg" height="150" /> 
+  <img src="./composite.jpeg" height="300" /> 
 </p>
 
 El código [biaxial_bending](./biaxial_bending.m) resuelve el siguiente problema: 
 
 <p float="left">
-  <img src="./biaxial.jpeg" height="150" /> 
+  <img src="./biaxial.jpeg" height="300" /> 
 </p>
 
 Los dos últimos programas  son complementarios al capítulo 6.
