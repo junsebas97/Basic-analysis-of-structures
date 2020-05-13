@@ -1,4 +1,4 @@
-# Material complementario sobre el capítulo de flexión:
+# Material complementario sobre el capítulo de torsión:
 
 
 En esta carpeta encontrarán varios programas de Matlab que son complementarios a la teoría del capítulo 6 y que pueden ir estudiando a medida que avanzan en el libro: el programa [constant_torsion](./constant_torsion.m) soluciona la siguiente barra:
