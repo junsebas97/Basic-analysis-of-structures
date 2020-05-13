@@ -2,7 +2,7 @@
 
 Antes de leer los libros les recomiendo que observen la presentación [Introducción](Docs/introduccion.pdf)
 
-1. Para la primera parte del curso se seguirá el libro *Mechanics of Meterials* - James M. Gere. De este  libro se debe seguir el siguiente orden:
+1.  Para la primera parte del curso se seguirá el libro *Mechanics of Meterials* - James M. Gere. De este  libro se debe seguir el siguiente orden:
 
     - ## **Capítulo 1:**
 
@@ -46,7 +46,7 @@ Antes de leer los libros les recomiendo que observen la presentación [Introducc
 
 
 
-2. En la segunda parte del curso se usará el libro *Structural Analysis* - Rusell C. Hibbeler. De este libro se estudiarán las siguientes secciones:
+2.  En la segunda parte del curso se usará el libro *Structural Analysis* - Rusell C. Hibbeler. De este libro se estudiarán las siguientes secciones:
 
 
     - ## **Capítulo 1:**
