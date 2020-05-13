@@ -7,16 +7,16 @@ En esta carpeta encontrarán varios programas de Matlab que son complementarios 
   <img src="./cables_pointloads.jpeg" height="250" /> 
 </p>
 
-El programa [cables_distributed](./cables_distributed.m) soluciona el cable con carga distribuida de la imagen:
+El programa [cables_uniforms](./cables_uniforms.m) soluciona el cable con carga distribuida de la imagen:
 
 <p float="left">
-  <img src="./cables_distributed.jpeg" height="250" /> 
+  <img src="./cables_uniform.jpeg" height="250" /> 
 </p>
 
 El programa [arcos](./arcos.m) resuelve el siguiente ejercicio:
 
 <p float="left">
-  <img src="./stress_strains.jpeg" height="250" /> 
+  <img src="./arcos.jpeg" height="250" /> 
 </p>
 
 Además. a continuación se anexa algunos ejercicios numéricos:
