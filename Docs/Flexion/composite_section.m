@@ -24,12 +24,12 @@ h_tot = h_m1 + h_m2;    % beam's total height [m]
 n     = E2/E1;          % modular ratio
 
 %% neutral axis:
-syms h1 y_var z
+syms h1 y z
 
 % the integral of the "y" in each material is formulated and the neutral
 % axis rule is solved
-int_1 = int(int(y_var, h1 - h_m1,  h1),  z, b, 0);
-int_2 = int(int(y_var, h1 - h_tot, h1 - h_m1), z, b, 0);
+int_1 = int(int(y, h1 - h_m1,  h1),  z, b, 0);
+int_2 = int(int(y, h1 - h_tot, h1 - h_m1), z, b, 0);
 
 d_tna = solve(int_1 + n*int_2 == 0);
 d_tna = double(d_tna);
@@ -38,8 +38,8 @@ d_tna = double(d_tna);
 
 % moment of inertia respect to the composite section neutral axis of each
 % material
-I_m1 = int(int(y_var^2, d_tna - h_m1,  d_tna),        z, 0, b);
-I_m2 = int(int(y_var^2, d_tna - h_tot, d_tna - h_m1), z, 0, b);
+I_m1 = int(int(y^2, d_tna - h_m1,  d_tna),        z, 0, b);
+I_m2 = int(int(y^2, d_tna - h_tot, d_tna - h_m1), z, 0, b);
 
 It = I_m1 + n*I_m2;    % total inertia of the composite section
 It = double(It);
@@ -63,8 +63,8 @@ u_x = solu.u;
 % the stress in the transformed section are obtained, these stress match
 % with the real stresses unchanged material but must be magnified in the
 % transformed materials
-sx_1 = @(x, y) -M_x(x)*y./It;
-sx_2 = @(x, y) sx_1(x, y)*n;
+sx_1 = @(x, y) -M_x(x).*y./It;
+sx_2 = @(x, y) sx_1(x, y).*n;
 
 % the stress are assesed in a cut in the mid of the span
 y1 = linspace(d_tna - h_m1,  d_tna);            sx1_l2 = sx_1(lz/2, y1);

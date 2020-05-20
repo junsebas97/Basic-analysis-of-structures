@@ -50,6 +50,15 @@ solu_z = dsolve(diff(Vy(x),  x) == q_z,          ...
           
 My_x  = matlabFunction(solu_z.My);
 
+%% peprpendicular reactions:
+
+%these reactions are not colinear so their resultant must be calculated
+% with the algebra of vectors
+V_x  = sqrt(solu_y.Vz^2  + solu_z.Vy^2);
+M_x  = sqrt(solu_y.Mz^2  + solu_z.My^2);
+th_x = sqrt(solu_y.thz^2 + solu_z.thy^2);
+u_x  = sqrt(solu_y.uz^2  + solu_z.uy^2);
+
 %% stress field:
 
 % the normal stress field is obtained with the superposition method and
@@ -70,12 +79,24 @@ na_l2 = @(y) na(lz/2, y);
 
 %% plots:
 
-figure('Name', 'Diagrams of the bending around z axis')
+fprintf('\nShear force magnitude in biaxial bending:\n')
+pretty(simplify(V_x))
+fprintf('\nBending moment magnitude in biaxial bending:\n')
+pretty(simplify(M_x))
+fprintf('\nAngle magnitude in biaxial bending:\n')
+pretty(simplify(th_x))
+fprintf('\ntotal deflection in biaxial bending:\n')
+pretty(simplify(u_x))
+
+figure
 
 subplot(2, 2, 1)
 hold on
-fplot(@(x) 0, [0, lz])
-fplot(solu_y.Vz, [0, lz], 'Linewidth', 2)
+plot3([0, lz] , [0, 0], [0, 0])
+fplot3(x, solu_y.Vz, solu_z.Vy, [0, lz], 'Linewidth', 2)
+fplot3(x, @(x) 0,    solu_z.Vy, [0, lz], 'k--')
+fplot3(x, solu_y.Vz, @(x) 0,    [0, lz], 'k--')
+view([1, -1, 0.75])
 grid on
 axis tight
 xlabel('x [m]')
@@ -85,8 +106,11 @@ title 'Shear force'
 
 subplot(2, 2, 2)
 hold on
-fplot(@(x) 0, [0, lz])
-fplot(solu_y.Mz, [0, lz], 'Linewidth', 2)
+plot3([0, lz] , [0, 0], [0, 0])
+fplot3(x, solu_y.Mz, solu_z.My, [0, lz], 'Linewidth', 2)
+fplot3(x, @(x) 0,    solu_z.My, [0, lz], 'k--')
+fplot3(x, solu_y.Mz, @(x) 0,    [0, lz], 'k--')
+view([1, -1, 0.5])
 grid on
 axis tight
 xlabel('x [m]')
@@ -96,8 +120,11 @@ title 'Bending moment'
 
 subplot(2, 2, 3)
 hold on
-fplot(@(x) 0, [0, lz])
-fplot(solu_y.thz, [0, lz], 'Linewidth', 2)
+plot3([0, lz] , [0, 0], [0, 0])
+fplot3(x, solu_y.thz, solu_z.thy, [0, lz], 'Linewidth', 2)
+fplot3(x, @(x) 0,     solu_z.thy, [0, lz], 'k--')
+fplot3(x, solu_y.thz, @(x) 0,     [0, lz], 'k--')
+view([0.8, -1, 0.2])
 grid on
 axis tight
 xlabel('x [m]')
@@ -107,55 +134,11 @@ title 'Rotation'
 
 subplot(2, 2, 4)
 hold on
-fplot(@(x) 0, [0, lz])
-fplot(solu_y.uz, [0, lz], 'Linewidth', 2)
-grid on
-axis tight
-xlabel('x [m]')
-xlim([0, lz])
-ylabel('u(x) [m]')
-title 'Deflection'
-
-
-figure('Name', 'Diagrams of the bending around y axis')
-
-subplot(2, 2, 1)
-hold on
-fplot(@(x) 0, [0, lz])
-fplot(solu_z.Vy, [0, lz], 'Linewidth', 2)
-grid on
-axis tight
-xlabel('x [m]')
-xlim([0, lz])
-ylabel('V(x) [kN]')
-title 'Shear force'
-
-subplot(2, 2, 2)
-hold on
-fplot(@(x) 0, [0, lz])
-fplot(solu_z.My, [0, lz], 'Linewidth', 2)
-grid on
-axis tight
-xlabel('x [m]')
-xlim([0, lz])
-ylabel('M(x) [kN - m]')
-title 'Bending moment'
-
-subplot(2, 2, 3)
-hold on
-fplot(@(x) 0, [0, lz])
-fplot(solu_z.thy, [0, lz], 'Linewidth', 2)
-grid on
-axis tight
-xlabel('x [m]')
-xlim([0, lz])
-ylabel('\theta(x) [rad]')
-title 'Rotation'
-
-subplot(2, 2, 4)
-hold on
-fplot(@(x) 0, [0, lz])
-fplot(solu_z.uy, [0, lz], 'Linewidth', 2)
+plot3([0, lz] , [0, 0], [0, 0])
+fplot3(x, solu_y.uz, solu_z.uy, [0, lz], 'Linewidth', 2)
+fplot3(x, @(x) 0,    solu_z.uy, [0, lz], 'k--')
+fplot3(x, solu_y.uz, @(x) 0,    [0, lz], 'k--')
+view([1, -1, 0.25])
 grid on
 axis tight
 xlabel('x [m]')
