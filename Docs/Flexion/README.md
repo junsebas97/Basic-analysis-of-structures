@@ -13,7 +13,7 @@ El libro de excel [diferencias_finitas](./diferencias_finitas.xlsx) trata el mis
 En el código [flexo_compresion](./flexo_compresion.m) se muestra la solución de la siguiente viga:
 
 <p float="left">
-  <img src="./dflexo_compresion.jpeg" height="480" /> 
+  <img src="./dflexo_compresion.jpg" height="480" /> 
 </p>
 
 El programa [composite_section](./composite_section.m) soluciona la siguiente viga:
