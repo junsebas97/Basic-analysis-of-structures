@@ -4,18 +4,18 @@ En esta carpeta encontrarán varios programas de Matlab que son complementarios 
 siguienten cercha:
 
 <p float="left">
-  <img src="./cercha.PNG" height="250" /> 
+  <img src="./cercha.png" height="250" /> 
 </p>
 
 El programa [stiffness_eq_force](./stiffness_eq_force.m) está diseñado para calcular la matriz de rigidez de una viga o las fuerzas nodales
 eqivalentes de una fuerza distribuida. El pórtico de la imagen se resuelve con el código [frame](./frame.m)
 
 <p float="left">
-  <img src="./frame.PNG" height="250" /> 
+  <img src="./frame.png" height="250" /> 
 </p>
 
 Finalemente, se recomienda estudiar el programa [portico_avanzado](./portico_avanzado.m)
 
 <p float="left">
-    <img src="./portico_avanzado.PNG" height="250">
+    <img src="./portico_avanzado.PNG" height="450">
 </p>
