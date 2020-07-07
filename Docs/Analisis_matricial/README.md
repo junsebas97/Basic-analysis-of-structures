@@ -14,7 +14,7 @@ eqivalentes de una fuerza distribuida. El pórtico de la imagen se resuelve con 
   <img src="./frame.png" height="250" /> 
 </p>
 
-Finalemente, se recomienda estudiar el programa [portico_avanzado](./portico_avanzado.m)
+Finalmente, se recomienda estudiar el programa [portico_avanzado](./portico_avanzado.m) que resuelve la siguiente estructura
 
 <p float="left">
     <img src="./portico_avanzado.PNG" height="450">
