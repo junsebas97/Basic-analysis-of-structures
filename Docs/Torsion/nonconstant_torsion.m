@@ -32,6 +32,11 @@ gamma = @(x, ro) tau(x, ro)./G;
 
 %% plots ans reports:
 
+figure
+fplot(T_x, [0, L], 'k', 'LineWidth', 2)
+axis tight
+grid on
+
 fprintf('\nrotation of the final section = %.3f°\n', phi*180/pi)
 
 figure

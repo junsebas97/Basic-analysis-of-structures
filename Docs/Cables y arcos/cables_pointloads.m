@@ -33,7 +33,7 @@ Ra_x = Tac*cosd(theta_a);
 
 % the equilibrium in the whole structure is formulated to assess the
 % tension in the AC segment
-sum_mom = Fc*(xb - xc) + Fd*(xb - xd) - Ra_x*yb - Ra_y*(xb - xc) == 0;
+sum_mom = Fc*(xb - xc) + Fd*(xb - xd) - Ra_x*yb - Ra_y*(xb - xa) == 0;
 Tac     = double(solve(sum_mom));
 
 % the magnitude of the reactions at support A are numerically assessed

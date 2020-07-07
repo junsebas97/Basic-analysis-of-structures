@@ -10,6 +10,8 @@ clc, clear all, close all
 
 %h = 50;
 h = 25;       % cable heigth [m]
+%h = 10;
+%h = 70;
 L = 100;      % cable length [m]
 w = 65;       % uniform load [kN/m]
 

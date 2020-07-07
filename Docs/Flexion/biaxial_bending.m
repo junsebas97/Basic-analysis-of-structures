@@ -1,4 +1,4 @@
-clc, clear all, close all
+%clc, clear all, close all
 %{
 This codes solves a rectangular beam subjected to biaxial bending due to an
 inclined load. The sigma_x equation and the shear, moment, theta and
@@ -10,7 +10,7 @@ MADE BY: Juan Sebastián Delgado Trujillo
 syms x My(x) Vy(x) thy(x) uy(x) Mz(x) Vz(x) thz(x) uz(x)
 %% beam properties:
 
-b = 0.3;    % base            [m]
+b = 0.5;    % base            [m]
 h = 0.5;    % height          [m]
 E = 210e6;  % elastic modulus [kPa]
 lz = 6;     % span            [m]
@@ -186,7 +186,7 @@ hold on
 fsurf(sx_l2, [-b/2, b/2, -h/2, h/2])
 fplot(na_l2, [-b/2, b/2], 'k-', 'Linewidth', 2)
 view([0, 0, 1])
-axis tight
+axis equal tight
 xlabel('z [m]')
 ylabel('y [m]')
 legend('\sigma_x', 'Neutral axis')

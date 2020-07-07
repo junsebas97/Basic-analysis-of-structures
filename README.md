@@ -57,3 +57,7 @@ Antes de leer los libros les recomiendo que observen la presentación [Introducc
     - ## **Capítulo 5:**
 
     Este capítulo se estudiará en su totalidad.
+
+    - ## **Capítulos 14, 15 y 16:**
+
+    Las siguientes secciones serán estudiadadas: 14.1, 14.2, 14.3, 14.4, 14.5, 14.6, 15.1, 15.2, 15.3 16.1, 16.2, 16.3 y 16.4

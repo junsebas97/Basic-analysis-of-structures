@@ -1,4 +1,4 @@
-clc, clear all , close all
+%clc, clear all , close all
 %{
 This codes assess the stress and strain distribution in the cross section
 of a circular or tubular bar subjected to constant torsion
@@ -14,7 +14,8 @@ L     = 1.5;         % [m]
 r_int = 2*0.0254;    % [m]
 r_ext = 3*0.0254;    % [m]
 
-% solid bar trial:    r_ext = 0.072;       r_int = 0;
+% solid bar trial:
+r_ext = 0.072;       r_int = 0;
 
 %% main:
 
