@@ -10,7 +10,7 @@ A continuación se anexa material multimedia sobre los ensayos axiales de labora
 
 - Ensayo a compresión:
 
-[![Ensayo de compresión cubos metálicos(http://img.youtube.com/vi/4f7-5H3xDlE/0.jpg)](http://www.youtube.com/watch?v=4f7-5H3xDlE)
+[![Ensayo de compresión cubos metálicos](http://img.youtube.com/vi/4f7-5H3xDlE/0.jpg)](http://www.youtube.com/watch?v=4f7-5H3xDlE)
 
 [![Ensayo de compresión en cilindro de concreto](http://img.youtube.com/vi/1u9x54SGY2U/0.jpg)](http://www.youtube.com/watch?v=1u9x54SGY2U)
 
