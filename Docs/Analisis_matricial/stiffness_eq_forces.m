@@ -20,8 +20,8 @@ cases  = [case_1; case_2; case_3; case_4];
 q_x = 0;
 
 %% Equivalent forces:
-
-q_x = w;
+%{
+q_x = w*x;
 
 % the nodal forces are caluclated only in the undeformed beam:
 case_1 = [0, 0, 0, 0];

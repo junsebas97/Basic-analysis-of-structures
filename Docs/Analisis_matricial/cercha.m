@@ -17,7 +17,8 @@ coord = [0,   0;
 
 % bars properties:
 E = [100, 150, 200]*10^6;    % elastic modulus  [kPa]
-A = [0.1, 0.4, 0.2];         % area of the bars [m2]
+%A = [0.1, 0.4, 0.2];         % area of the bars [m2]
+A = [0.15*0.15, 0.05*0.5, 0.05*0.5];         % area of the bars [m2]
 
 % correspondence matrix:
 LaG = [1, 2;

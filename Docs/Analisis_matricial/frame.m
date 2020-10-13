@@ -124,7 +124,7 @@ end
 %% Nodal equivalent forces:
 
 F    = zeros(n_gdl, 1);
-f_st = cell(n_el);
+f_st = cell(n_el, 1);
 
 % in each element:
 for el = 1:n_el
@@ -172,7 +172,7 @@ deformed = coord + disp*scale;
 %% Internal forces:
 
 % finally, the internal forces of each bar are calculated:
-p = cell(n_el);
+p = cell(n_el, 1);
 for el = 1:n_el    
     % nodal displacements of the bar:
     u_e = reshape(U(gdl(LaG(el, :), :))', 6, 1);
